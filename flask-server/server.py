@@ -4,7 +4,9 @@ app = Flask(__name__)
 
 @app.route('/members')
 def members():
-  return {'members': ['Ned, JJ, Thelma']}
+  return {'members': [
+    
+    'Thelma, Ned, JJ']}
 
 if __name__ == '__main__':
     app.run(debug=True)
